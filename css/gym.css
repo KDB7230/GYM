@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../image/bg2.jpg");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.left {
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: fixed;
+    left: 30px;
+    top: 25px;
+}
+
+.left img {
+    width: 90px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    /* position: fixed;
+    left: 350px; */
+
+    display: block;
+    /* border: 2px solid green; */
+    width: 51%;
+    margin: 35px auto;
+    padding: 2px 5px;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+    /* padding: 4px 18px; */
+    font-family: 'Tilt Prism', cursive;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 4px 18px;
+}
+
+.navbar li a:hover, .navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+.right {
+    position: fixed;
+    /* border: 2px solid purple; */
+    display: inline-block;
+    right: 25px;
+    top: 30px;
+    padding: 2px 5px;
+    
+
+}
+.btn{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 4px 15px;
+    margin: 0px 5px;
+    background-color: transparent; 
+    color: rgba(91, 66, 206, 0.887);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.656);
+}
+
+
+.container{
+    font-family: 'Baloo Bhai', cursive;
+    margin: 62px 0px 0px 170px;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    /* background-image: url('../image/logo.png'); */
+    /* filter: invert(100%); */
+    background-size: cover;
+    position: relative;
+
+
+}
+.container h1{
+    margin: 10px 0px;
+}
+.container img{
+    width: 60px;
+}
+.input{
+    width:60% ;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+select{
+    width:60% ;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 10px;
+}
+.container div button{
+    width:20% ;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
